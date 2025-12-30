@@ -271,10 +271,3 @@ const pushNotification = (title, description, type) => {
     element.style.display = 'none';
   }, 2000);
 };
-
-pushNotification(
-  { top: 10, right: 10 },
-  'Title of Success message',
-  'Message example.\n ' + 'Notification should contain title and description.',
-  'success',
-);
