@@ -212,7 +212,7 @@ function onSubmit(eve) {
     const td = document.createElement('td');
 
     if (key === 'salary') {
-      const salary = Number(employeeData[key]) * 1000;
+      const salary = Number(employeeData[key]);
 
       td.textContent = new Intl.NumberFormat('en-US', {
         style: 'currency',
